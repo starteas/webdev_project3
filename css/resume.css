@@ -1,0 +1,75 @@
+/*Style 1*/
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+/*Style 2*/
+h1 {
+  font-size: 3em;
+  color: #000000;
+  text-align: center;
+}
+/*Style 3*/
+h3 {
+  font-size: 1.5em;
+  color: #000000;
+  text-decoration: underline;
+}
+
+/*Style 5*/
+#contact-info {
+  text-align: center;
+  strong {
+    font-weight: bold;
+  }
+}
+/*Style 5*/
+#summary {
+  text-align: center;
+  border: 0.125rem solid black;
+  padding: 2rem;
+}
+/*Style 6*/
+#name {
+  text-align: center;
+  color: #000000;
+  font-size: 2em;
+}
+
+/*Navigation Bar*/
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: hotpink;
+
+
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
+
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+
+}
+
+#main-nav ul li a:hover {
+  background-color: lightpink;
+  color: grey;
+}

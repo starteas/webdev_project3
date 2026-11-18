@@ -1,0 +1,73 @@
+/*Style 1*/
+body {
+  background-color: rgb(255, 224, 229);
+}
+
+/*Style 2*/
+h1, h2{
+  text-align: center;
+  text-decoration:wavy underline;
+  font-family: 'Garamond', sans-serif;
+}
+
+/*Style 3*/
+img{
+    border: 5px solid hotpink;
+}
+
+/*Style 4*/
+#mystery-pattern{
+  border: 2px solid lightpink;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/*Style 5*/
+#love-crochet{
+  text-align: center;
+  font-style: italic;
+}
+
+/*Style 6*/
+p, li{
+  font-family: 'Courier New', monospace;
+}
+
+/*Navigation*/
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: hotpink;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
+
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+
+}
+
+#main-nav ul li a:hover {
+  background-color: lightpink;
+  color: grey;
+}
+
+

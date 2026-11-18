@@ -1,0 +1,71 @@
+/*Style 1*/
+#about-me{
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  outline: 5px solid lightpink;
+}
+/*Style 2*/
+p{
+  font-family: 'Garamond', sans-serif;
+}
+/*Style 3*/
+video{
+  outline: 0.5em dashed lightpink;
+}
+/*Style 4*/
+#concert-videos{
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+/*Style 5*/
+h3{
+  font-family: "Ruge Boogie", cursive;
+  color: rgb(170, 24, 56);
+}
+/*Style 6*/
+.ruge-boogie-regular {
+  font-family: "Ruge Boogie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Navigation Bar*/
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: hotpink;
+
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
+
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+
+}
+
+#main-nav ul li a:hover {
+  background-color: lightpink;
+  color: grey;
+}
