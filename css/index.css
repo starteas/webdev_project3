@@ -1,3 +1,6 @@
+
+
+
 /*Style 1*/
 #about-me{
   text-align: center;
@@ -68,4 +71,44 @@ h3{
 #main-nav ul li a:hover {
   background-color: lightpink;
   color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(235, 177, 253);
+    color: rgb(96, 44, 109);
+    text-align: center;
+  }
+  video{
+    outline: 0.5em dashed rgb(73, 31, 83);
+  }
+  h3{
+    color: rgb(96, 44, 109);
+  }
+  #about-me{
+    outline: 5px solid rgb(73, 31, 83);
+  }
+  #main-nav {
+    background-color: rgb(173, 117, 190);
+  }
+  #main-nav ul li a:hover {
+    background-color: rgb(73, 31, 83);
+    color: rgb(235, 177, 253);
+  }
+}
+
+@media screen and (min-width: 800px){
+  body {
+    background-color: rgb(252, 221, 226);
+    color: rgb(170, 24, 56);
+    text-align: center;
+  }
+   #main-nav ul {
+    flex-direction: column;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+
+
 }
