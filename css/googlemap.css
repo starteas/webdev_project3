@@ -1,3 +1,35 @@
+body {
+  background-color: rgb(255, 224, 229);
+}
+
+h1{
+  font-family: "Ruge Boogie", cursive;
+  font-size: 50px;
+  color: rgb(170, 24, 56);
+}
+
+footer {  
+    text-align: center;
+    height: 30px;
+    font-family: Courier;
+}
+
+
+
+#questions {
+  font-family: Courier;
+  width: 200px;
+  text-align: center;
+  color: black;
+  background-color: hotpink;
+  padding: .5em 0;
+  margin: 5px auto;
+  border: 0;
+  font-size: 16px;
+}
+
+
+
 /*Navigation*/
 #main-nav {
   float: left;
